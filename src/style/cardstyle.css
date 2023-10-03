@@ -1,0 +1,28 @@
+.card-item {
+  box-sizing: border-box;
+  width: 300px;
+  background-color: rgb(221, 227, 227);
+  border: black solid;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  gap: 35px;
+  box-shadow: 5px 5px red, -1em 0 0.4em olive;
+  transition: 0.5s ease-in-out;
+  border-radius: 15px;
+}
+.card-item:hover {
+  cursor: pointer;
+  transform: scale(1.1);
+  transition: 0.5s ease-in-out;
+}
+.img {
+  object-fit: cover;
+  border-radius: 20px;
+}
+
+.p {
+  color: saddlebrown;
+}
